@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Shapes;
 
 namespace UnitTestShapes
 {
@@ -9,6 +10,9 @@ namespace UnitTestShapes
         [TestMethod]
         public void TestMethod1()
         {
+            var mySq = new Square(4);
+            Assert.AreEqual(16, mySq.Area());
+            Assert.AreEqual(16, mySq.Perimeter());
         }
     }
 }

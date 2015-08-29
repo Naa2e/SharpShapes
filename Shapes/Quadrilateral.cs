@@ -12,6 +12,7 @@ namespace Shapes
         private float bottom;
         private float left;
         private float right;
+
         public float Top
         {
             get { return top; }

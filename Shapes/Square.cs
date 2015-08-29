@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Shapes
 {
-    class Square
+    public class Square : Rectangle
     {
-        public class Quadrilateral : Shape
+         public Square(float side) : base(side, side){  }
     }
 }
